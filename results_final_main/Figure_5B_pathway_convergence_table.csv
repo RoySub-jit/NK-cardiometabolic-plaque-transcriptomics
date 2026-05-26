@@ -1,0 +1,16 @@
+Pathway,Dataset,overlap,set_size,minus_log10_fdr
+Cytotoxic/NK effector,PBMC validation,7,10,3.1
+Cytotoxic/NK effector,Plaque scRNA,6,10,2.4
+Cytotoxic/NK effector,IPH plaque,7,10,4.3
+Inflammatory/cytokine,PBMC validation,4,6,1.5
+Inflammatory/cytokine,Plaque scRNA,5,6,2.6
+Inflammatory/cytokine,IPH plaque,6,6,4.1
+Interferon response,PBMC validation,2,7,1.0
+Interferon response,Plaque scRNA,5,7,2.2
+Interferon response,IPH plaque,7,7,5.0
+Migration/adhesion,PBMC validation,3,9,1.2
+Migration/adhesion,Plaque scRNA,6,9,2.7
+Migration/adhesion,IPH plaque,7,9,3.8
+Antigen presentation,PBMC validation,2,9,0.8
+Antigen presentation,Plaque scRNA,6,9,2.9
+Antigen presentation,IPH plaque,7,9,3.6

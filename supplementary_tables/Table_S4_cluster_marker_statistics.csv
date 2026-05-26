@@ -1,0 +1,6 @@
+Dataset,Comparison,Gene,Enriched_in,p_value
+GSE198339,Cluster 1 vs cluster 4,GZMK,Cluster 1,1.5e-52
+GSE198339,Cluster 1 vs cluster 4,NKG7,Cluster 4,9.8e-116
+GSE198339,Cluster 1 vs cluster 4,GNLY,Cluster 4,3.4e-271
+GSE198339,Cluster 1 vs cluster 4,FCGR3A,Cluster 4,3.6e-159
+GSE198339,Cluster 1 vs cluster 4,TYROBP,Cluster 4,0.0

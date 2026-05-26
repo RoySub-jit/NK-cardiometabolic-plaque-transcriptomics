@@ -1,0 +1,6 @@
+Module,Genes,n_genes
+GZMK-like score,"GZMK, NKG7, GNLY, KLRD1",4
+NK core score,"NKG7, GNLY, KLRD1, TYROBP",4
+Cytotoxic/NK effector,"NKG7, GNLY, PRF1, GZMB, KLRD1, FCGR3A, TYROBP",7
+Inflammatory/cytokine,"CCL3, CCL4, CCL5, IL32, TNF, IFNG",6
+Interferon response,"IFIT1, IFIT2, IFIT3, ISG15, MX1, OAS1, STAT1",7

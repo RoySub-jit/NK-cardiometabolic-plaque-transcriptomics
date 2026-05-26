@@ -1,0 +1,12 @@
+Gene,Direction,Interpretation
+TYROBP,IPH higher,NK adaptor/inflammatory signaling
+NKG7,IPH higher,NK/cytotoxic effector marker
+GNLY,IPH higher,Cytotoxic granule program
+KLRD1,IPH higher,NK identity/CD94
+GZMK,Weaker single-gene; program-level support,GZMK-like program component
+PRF1,IPH higher,Cytotoxic effector
+GZMB,IPH higher,Cytotoxic effector
+CCL3,IPH higher,Inflammatory chemokine
+CCL4,IPH higher,Inflammatory chemokine
+STAT1,IPH higher,Interferon response
+OAS1,IPH higher,Interferon response

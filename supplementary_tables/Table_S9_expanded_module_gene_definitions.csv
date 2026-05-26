@@ -1,0 +1,58 @@
+Module,Gene
+GZMK-like score,GZMK
+GZMK-like score,NKG7
+GZMK-like score,GNLY
+GZMK-like score,KLRD1
+NK core score,NKG7
+NK core score,GNLY
+NK core score,KLRD1
+NK core score,TYROBP
+Cytotoxic/NK effector,NKG7
+Cytotoxic/NK effector,GNLY
+Cytotoxic/NK effector,PRF1
+Cytotoxic/NK effector,GZMB
+Cytotoxic/NK effector,KLRD1
+Cytotoxic/NK effector,FCGR3A
+Cytotoxic/NK effector,TYROBP
+Inflammatory/cytokine,CCL3
+Inflammatory/cytokine,CCL4
+Inflammatory/cytokine,CCL5
+Inflammatory/cytokine,IL32
+Inflammatory/cytokine,TNF
+Inflammatory/cytokine,IFNG
+Interferon response,IFIT1
+Interferon response,IFIT2
+Interferon response,IFIT3
+Interferon response,ISG15
+Interferon response,MX1
+Interferon response,OAS1
+Interferon response,STAT1
+Migration/adhesion,CX3CR1
+Migration/adhesion,ITGAL
+Migration/adhesion,ITGB2
+Migration/adhesion,SELL
+Migration/adhesion,CCR7
+Migration/adhesion,CXCR3
+Migration/adhesion,CCL5
+Migration/adhesion,ICAM3
+Migration/adhesion,RAC2
+Antigen presentation,HLA-A
+Antigen presentation,HLA-B
+Antigen presentation,HLA-C
+Antigen presentation,B2M
+Antigen presentation,TAP1
+Antigen presentation,TAPBP
+Antigen presentation,CD74
+Antigen presentation,HLA-DRA
+Antigen presentation,HLA-DRB1
+Lipid/vascular relevance,FCGR3A
+Lipid/vascular relevance,TYROBP
+Lipid/vascular relevance,CX3CR1
+Lipid/vascular relevance,NFKBIA
+Lipid/vascular relevance,CCL5
+Lipid/vascular relevance,IFITM3
+Lipid/vascular relevance,JUN
+Lipid/vascular relevance,FOS
+Lipid/vascular relevance,NR4A1
+Lipid/vascular relevance,ITGB2
+Lipid/vascular relevance,B2M

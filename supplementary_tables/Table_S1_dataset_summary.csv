@@ -1,0 +1,5 @@
+Dataset,Data_type,Context,Primary_readout,Sample_size,Role
+Allen Human Immune Health Atlas,Blood scRNA-seq,Healthy adults,GZMK+ CD56dim NK vs non-HDL,n=74 donors,Discovery
+GSE198339,PBMC scRNA-seq,External blood validation,NK readouts vs non-HDL,"n=8; 13,787 cells",PBMC validation
+GSE224273,Plaque scRNA-seq,Carotid plaque,Asymptomatic vs symptomatic NK-high cells,Asym n=5; Sym n=2,Plaque single-cell translation
+GSE163154,Bulk plaque transcriptomics,Carotid plaque IPH,No IPH vs IPH,No IPH n=16; IPH n=27,Independent plaque validation

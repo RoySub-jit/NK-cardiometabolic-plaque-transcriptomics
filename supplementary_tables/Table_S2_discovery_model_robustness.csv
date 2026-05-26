@@ -1,0 +1,4 @@
+Analysis,n,beta,CI_lower,CI_upper,p_value,R2,adjusted_R2
+Primary adjusted model,74,0.000364,3.45e-05,0.000693,0.0309,0.0897,0.0228
+Leave-one-out median,74,0.000369,,,0.0286,,
+Bootstrap median,1000,0.000371,,,,,

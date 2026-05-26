@@ -1,0 +1,5 @@
+Score definition,Genes included,Mean difference No IPH minus IPH,p value,Interpretation
+GZMK-like score,"GZMK,NKG7,GNLY,KLRD1",-0.415,0.000343,Primary score
+NK core score,"NKG7,GNLY,KLRD1,TYROBP",-0.624,0.000021,Consistent IPH enrichment
+Cytotoxic/NK effector score,"NKG7,GNLY,PRF1,GZMB,KLRD1,FCGR3A,TYROBP",-0.531,0.000068,Consistent IPH enrichment
+GZMK-like score without GZMK,"NKG7,GNLY,KLRD1",-0.328,0.00079,Robust to removal of GZMK

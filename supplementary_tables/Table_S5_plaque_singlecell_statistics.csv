@@ -1,0 +1,2 @@
+Dataset,Feature,Comparison,n_asymptomatic,n_symptomatic,Effect,p_value
+GSE224273,GZMK-like score,Asymptomatic vs symptomatic,5,2,0.241,0.0952
