@@ -1,0 +1,11 @@
+Figure 3 final plaque-only provenance
+=============================================
+No PBMC cluster-comparison or PBMC pathway panels are included.
+Input plaque object: /pub/subhajr/projects/heat_aging_human_reanalysis/results/tier2_validation/GSE224273_merged_rna_raw.h5ad
+Input plaque statistics: /pub/subhajr/projects/heat_aging_human_reanalysis/results/supplementary/Table_S5_plaque_singlecell_statistics.csv
+NK-high score genes: NKG7, GNLY, KLRD1, FCGR3A, TYROBP
+NK-high threshold: 90th percentile of NK seed score.
+GZMK-like genes: GZMK, NKG7, GNLY, KLRD1
+Panel C exact permutation p value: 0.0952
+Panel C asymptomatic-minus-symptomatic effect: 0.241
+Panel C 95% CI: [0.059, 0.426]

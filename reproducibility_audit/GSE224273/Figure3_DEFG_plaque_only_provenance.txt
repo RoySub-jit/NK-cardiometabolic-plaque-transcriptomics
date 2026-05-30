@@ -1,0 +1,21 @@
+Figure 3D-G plaque-only replacement panels
+====================================================
+No PBMC data, PBMC cluster comparisons, or PBMC pathway values are included.
+Input plaque object: /pub/subhajr/projects/heat_aging_human_reanalysis/results/tier2_validation/GSE224273_merged_rna_raw.h5ad
+Sample column: sample
+NK-high threshold: upper decile of score derived from NKG7, GNLY, KLRD1, FCGR3A, TYROBP
+Group comparison: asymptomatic minus symptomatic plaque samples.
+Statistics: two-sided exact label-permutation test at sample level.
+
+Module definitions:
+- GZMK-like score: GZMK, NKG7, GNLY, KLRD1
+- Cytotoxic core score: NKG7, GNLY, KLRD1, PRF1, GZMB
+- NK core score: NKG7, GNLY, KLRD1, TYROBP
+- Cytotoxic/NK effector: NKG7, GNLY, PRF1, GZMB, KLRD1, FCGR3A, TYROBP
+
+Module results:
+              Feature Feature_type  Effect_Asym_minus_Sym  Exact_permutation_p          Status
+      GZMK-like score Module score               0.272759             0.095238           Trend
+ Cytotoxic core score Module score               0.316802             0.380952 Not significant
+        NK core score Module score               0.212561             0.238095 Not significant
+Cytotoxic/NK effector Module score               0.200454             0.619048 Not significant

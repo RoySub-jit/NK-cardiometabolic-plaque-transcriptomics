@@ -36,11 +36,16 @@ The verified reanalysis supported positive associations of non-HDL cholesterol w
 
 The GZMK-like composite score showed a positive non-significant trend and is interpreted accordingly in the manuscript.
 
+## Verified GSE224273 Figure 3 revision
+
+Figure 3 was revised to retain plaque-derived analyses only. The corrected panels are based on GSE224273 plaque single-cell data and do not include PBMC cluster-comparison, PBMC pathway, or unsupported cross-dataset pathway/FDR values. The plaque analysis identified a positive trend for the GZMK-like score in asymptomatic relative to symptomatic plaques, with broader module-level findings interpreted as exploratory.
+
 ## Repository structure
 
 - `scripts/final/GSE198339_verified/`: verified external PBMC disease-context scripts
 - `scripts/first_dataset/`: Allen healthy-donor discovery scripts used for manuscript outputs
-- `scripts/tier2_validation/`: plaque single-cell scripts retained for manuscript outputs
+- `scripts/tier2_validation/`: retained plaque single-cell provenance scripts
+- `scripts/final/GSE224273_verified/`: verified plaque-only Figure 3 generation scripts
 - `scripts/tier3_plaque_validation/`: IPH bulk plaque scripts retained for manuscript outputs
 - `results_final_main/`: derived numerical results supporting the final figure package
 - `figures_final_main/`: verified corrected figure panels generated from the final analysis workflow
