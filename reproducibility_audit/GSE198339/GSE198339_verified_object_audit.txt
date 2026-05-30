@@ -1,0 +1,19 @@
+GSE198339 verified object audit
+==========================================
+Source: official GEO processed expression and metadata CSV files
+Total cells: 9,368
+Total genes: 14,017
+Participants: 8
+Official ClusterName annotations retained.
+non-HDL calculated as cholesterol - HDL.
+No additional cell filtering applied; official processed retained-cell set used.
+
+ParticipantID AS_status  cholesterol  HDL  non_HDL  total_cells  NK_resting  NK_activated  NK_total  NK_proportion
+Participant_1       AS-          151   60       91         1370         114             5       119       0.086861
+Participant_2       AS-          153   48      105         1086          40             4        44       0.040516
+Participant_3       AS-          250   42      208         1197         102             3       105       0.087719
+Participant_4       AS-          117   54       63         1259          23             3        26       0.020651
+Participant_5       AS+          179   65      114          868         104             1       105       0.120968
+Participant_6       AS+          102   33       69          983          30             4        34       0.034588
+Participant_7       AS+          151   46      105          977          49             1        50       0.051177
+Participant_8       AS+          214   75      139         1628         169             3       172       0.105651

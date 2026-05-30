@@ -1,0 +1,10 @@
+Feature,Metric_column,n_participants,Spearman_rho,p_value
+Cytotoxic core score,Cytotoxic_core_score,8,0.8742671711966791,0.004512385603651026
+NKG7 expression in NK cells,NKG7_expr,8,0.8383383833392812,0.009323115735056061
+NK total-cell proportion,NK_total_proportion,8,0.8263621207201486,0.01144276499994122
+NK resting-cell proportion,NK_resting_proportion,8,0.8263621207201486,0.01144276499994122
+KLRD1 expression in NK cells,KLRD1_expr,8,0.6946232319096901,0.055884725588007014
+GZMK-like composite score,GZMK_like_score,8,0.6586944440522925,0.0756896878416385
+GNLY expression in NK cells,GNLY_expr,8,0.5269555552418339,0.17962896715692672
+TYROBP expression in NK cells,TYROBP_expr,8,0.21557272714438658,0.6081490663684048
+GZMK expression in NK cells,GZMK_expr,8,0.15569141404872366,0.7127617079991629

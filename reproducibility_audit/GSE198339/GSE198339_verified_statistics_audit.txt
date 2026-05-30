@@ -1,0 +1,31 @@
+GSE198339 verified PBMC disease-context statistics audit
+==============================================================
+Input object: official processed 9,368-cell normalized object
+Participants: 8
+NK labels: NK cells resting; NK cells activated
+non-HDL: cholesterol - HDL
+GZMK-like score: mean normalized expression of GZMK, NKG7, GNLY, KLRD1 within NK cells
+Categorical clinical metadata preserved; missing-value fill restricted to numeric count columns.
+
+Participant-level metrics:
+ParticipantID Atherosclerosis Status  cholesterol  HDL  non_HDL  Total_cells  NK_total_cells  NK_resting_cells  NK_total_proportion  NK_resting_proportion  GZMK_expr  NKG7_expr  GNLY_expr  KLRD1_expr  TYROBP_expr  FCGR3A_expr  PRF1_expr  GZMB_expr  GZMK_like_score  Cytotoxic_core_score
+Participant_1                    AS-          151   60       91         1370             119               114             0.086861               0.083212   0.195498   2.950570   3.119033    1.649094     2.315302     1.253648   1.833660   2.094535         1.978548              2.329378
+Participant_2                    AS-          153   48      105         1086              44                40             0.040516               0.036832   0.296034   2.993561   2.869731    2.267652     2.362580     1.360409   2.091333   2.579312         2.106745              2.560318
+Participant_3                    AS-          250   42      208         1197             105               102             0.087719               0.085213   0.211753   2.999341   3.081203    2.132203     2.550145     1.641215   2.250963   2.478167         2.106125              2.588375
+Participant_4                    AS-          117   54       63         1259              26                23             0.020651               0.018268   0.252143   2.878435   2.693719    1.962950     2.413112     1.268951   2.114094   1.979683         1.946812              2.325776
+Participant_5                    AS+          179   65      114          868             105               104             0.120968               0.119816   0.266467   3.010699   3.138339    2.109463     2.488997     1.967432   2.363971   2.629167         2.131242              2.650328
+Participant_6                    AS+          102   33       69          983              34                30             0.034588               0.030519   0.171518   2.945492   2.965769    1.824906     2.510247     1.373499   1.916171   2.281952         1.976921              2.386858
+Participant_7                    AS+          151   46      105          977              50                49             0.051177               0.050154   0.339323   3.004736   3.275131    2.055519     2.586671     1.754101   1.798238   2.303298         2.168677              2.487384
+Participant_8                    AS+          214   75      139         1628             172               169             0.105651               0.103808   0.234977   3.104596   3.174605    2.061977     2.380790     1.714649   2.221641   2.620511         2.144038              2.636666
+
+Correlation statistics:
+                      Feature         Metric_column  n_participants  Spearman_rho  p_value
+         Cytotoxic core score  Cytotoxic_core_score               8      0.874267 0.004512
+  NKG7 expression in NK cells             NKG7_expr               8      0.838338 0.009323
+     NK total-cell proportion   NK_total_proportion               8      0.826362 0.011443
+   NK resting-cell proportion NK_resting_proportion               8      0.826362 0.011443
+ KLRD1 expression in NK cells            KLRD1_expr               8      0.694623 0.055885
+    GZMK-like composite score       GZMK_like_score               8      0.658694 0.075690
+  GNLY expression in NK cells             GNLY_expr               8      0.526956 0.179629
+TYROBP expression in NK cells           TYROBP_expr               8      0.215573 0.608149
+  GZMK expression in NK cells             GZMK_expr               8      0.155691 0.712762

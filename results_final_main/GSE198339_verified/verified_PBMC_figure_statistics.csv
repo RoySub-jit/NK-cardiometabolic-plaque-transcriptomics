@@ -1,0 +1,5 @@
+Figure_feature,Spearman_rho,p_value,Status
+Cytotoxic core score,0.874267,0.004512,Significant positive association
+NKG7 expression in NK cells,0.838338,0.009323,Significant positive association
+NK resting-cell proportion,0.826362,0.011443,Significant positive association
+GZMK-like composite score,0.658694,0.07569,Positive non-significant trend

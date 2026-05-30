@@ -1,22 +1,53 @@
-# NK cardiometabolic plaque transcriptomics
+# NK/cytotoxic-associated immune programs across cardiometabolic and vascular inflammatory contexts
 
-Repository for the manuscript:
+Repository supporting the manuscript:
 
-**Integrative Single-Cell and Plaque Transcriptomic Analyses Reveal Conserved NK-Cell Effector Remodeling Across Cardiometabolic and Vascular Inflammatory States**
+**Integrative single-cell and plaque transcriptomic analyses identify recurring NK/cytotoxic-associated immune programs across cardiometabolic and vascular inflammatory contexts**
 
 ## Overview
 
-This project integrates healthy donor immune single-cell profiling, external PBMC validation, carotid plaque single-cell transcriptomics, and independent bulk plaque transcriptomic validation to evaluate conserved NK-cell effector programs across cardiometabolic and vascular inflammatory states.
+This repository contains analysis scripts, verified derived outputs, figure-generation materials, supplementary tables, and reproducibility audit files supporting an integrative computational reanalysis of publicly available transcriptomic datasets.
 
-## Contents
+The study evaluates NK/cytotoxic-associated immune features across:
 
-- `scripts/` analysis and figure-generation scripts
-- `figures_final_main/` final main figure files
-- `results_final_main/` source tables for main figures
-- `supplementary_figures/` supplementary figure files
-- `supplementary_tables/` supplementary tables
-- `data_access/` dataset accession information
+- healthy donor immune single-cell data linked to non-HDL cholesterol;
+- an external PBMC disease-context cohort;
+- carotid plaque single-cell transcriptomic comparisons; and
+- intraplaque hemorrhage-stratified bulk plaque transcriptomics.
 
-## Data availability
+## Public datasets
 
-Public datasets analyzed in this study are available from the Allen Human Immune Health Atlas and NCBI GEO under accession numbers GSE198339, GSE224273, and GSE163154. Raw public datasets are not redistributed.
+- Allen Human Immune Health Atlas: healthy donor discovery analysis
+- GSE198339: external PBMC disease-context analysis
+- GSE224273: carotid plaque single-cell comparison
+- GSE163154: intraplaque hemorrhage-stratified plaque analysis
+
+Raw public datasets are not redistributed in this repository.
+
+## Verified GSE198339 reanalysis
+
+The external PBMC disease-context component was audited and reproduced using the official processed GSE198339 dataset comprising 9,368 PBMCs from eight male participants living with HIV, four with and four without atherosclerosis. Participant-level non-HDL cholesterol was calculated as total cholesterol minus HDL cholesterol using the official accompanying metadata.
+
+The verified reanalysis supported positive associations of non-HDL cholesterol with:
+
+- cytotoxic core score;
+- NKG7 expression within annotated NK cells; and
+- NK resting-cell proportion.
+
+The GZMK-like composite score showed a positive non-significant trend and is interpreted accordingly in the manuscript.
+
+## Repository structure
+
+- `scripts/final/GSE198339_verified/`: verified external PBMC disease-context scripts
+- `scripts/first_dataset/`: Allen healthy-donor discovery scripts used for manuscript outputs
+- `scripts/tier2_validation/`: plaque single-cell scripts retained for manuscript outputs
+- `scripts/tier3_plaque_validation/`: IPH bulk plaque scripts retained for manuscript outputs
+- `results_final_main/`: derived numerical results supporting the final figure package
+- `figures_final_main/`: verified corrected figure panels generated from the final analysis workflow
+- `supplementary_figures/`: supplementary figure outputs
+- `supplementary_tables/`: final verified supplementary workbook
+- `reproducibility_audit/`: audit records supporting corrected reanalysis
+
+## Data and code availability
+
+Public transcriptomic datasets analyzed in this study are available from the Allen Human Immune Health Atlas and NCBI Gene Expression Omnibus under accession numbers GSE198339, GSE224273, and GSE163154. This repository provides analysis scripts, verified derived outputs, figure-generation materials, and supplementary files used for the manuscript. Large intermediate objects, computational environments, and raw public dataset downloads are intentionally not redistributed.

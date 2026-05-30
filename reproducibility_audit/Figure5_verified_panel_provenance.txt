@@ -1,0 +1,21 @@
+Corrected Figure 5A-B provenance report
+==================================================
+Figure 5A: feature-level statistical evidence summary generated from verified source tables.
+Figure 5B: evidence-status matrix; no pathway-level enrichment or FDR values displayed.
+
+Sources:
+- Allen discovery: Table_S2_discovery_model_robustness.csv
+- PBMC disease-context: verified rerun from official processed 9,368-cell GSE198339 dataset
+- Plaque single-cell: Table_S5_plaque_singlecell_statistics.csv
+- IPH bulk plaque: Table_S10_alternative_score_robustness.csv and Table_S6_IPH_validation_statistics.csv
+
+                Context                         Feature  Estimate                  Estimate_type  p_value              Direction         Status                   Source  minus_log10_p
+Allen healthy discovery GZMK+ CD56dim NK-cell abundance  0.000364                  Adjusted beta 0.030900    Higher with non-HDL      Supported                 Table S2       1.510042
+   PBMC disease-context            Cytotoxic core score  0.874267                   Spearman rho 0.004512    Higher with non-HDL      Supported Verified GSE198339 rerun       2.345594
+   PBMC disease-context     NKG7 expression in NK cells  0.838338                   Spearman rho 0.009323    Higher with non-HDL      Supported Verified GSE198339 rerun       2.030439
+   PBMC disease-context      NK resting-cell proportion  0.826362                   Spearman rho 0.011443    Higher with non-HDL      Supported Verified GSE198339 rerun       1.941469
+   PBMC disease-context       GZMK-like composite score  0.658694                   Spearman rho 0.075690    Higher with non-HDL Positive trend Verified GSE198339 rerun       1.120963
+     Plaque single-cell                 GZMK-like score  0.241000 Asymptomatic minus symptomatic 0.095200 Higher in asymptomatic Positive trend                 Table S5       1.021363
+        IPH bulk plaque                   NK core score -0.624000               No-IPH minus IPH 0.000021 Higher in IPH-positive      Supported                Table S10       4.677781
+        IPH bulk plaque     Cytotoxic/NK effector score -0.531000               No-IPH minus IPH 0.000068 Higher in IPH-positive      Supported                Table S10       4.167491
+        IPH bulk plaque                 GZMK-like score -0.415000               No-IPH minus IPH 0.000343 Higher in IPH-positive      Supported                Table S10       3.464706

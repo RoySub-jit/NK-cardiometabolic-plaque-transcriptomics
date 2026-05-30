@@ -1,0 +1,10 @@
+Context,Feature,Estimate,Estimate_type,p_value,Direction,Status,Source,minus_log10_p
+Allen healthy discovery,GZMK+ CD56dim NK-cell abundance,0.000364,Adjusted beta,0.0309,Higher with non-HDL,Supported,Table S2,1.5100415205751654
+PBMC disease-context,Cytotoxic core score,0.8742671711966791,Spearman rho,0.004512385603651,Higher with non-HDL,Supported,Verified GSE198339 rerun,2.345593795021548
+PBMC disease-context,NKG7 expression in NK cells,0.8383383833392812,Spearman rho,0.009323115735056,Higher with non-HDL,Supported,Verified GSE198339 rerun,2.030438924511946
+PBMC disease-context,NK resting-cell proportion,0.8263621207201486,Spearman rho,0.0114427649999412,Higher with non-HDL,Supported,Verified GSE198339 rerun,1.9414690210741816
+PBMC disease-context,GZMK-like composite score,0.6586944440522925,Spearman rho,0.0756896878416385,Higher with non-HDL,Positive trend,Verified GSE198339 rerun,1.1209632858703522
+Plaque single-cell,GZMK-like score,0.241,Asymptomatic minus symptomatic,0.0952,Higher in asymptomatic,Positive trend,Table S5,1.0213630516155257
+IPH bulk plaque,NK core score,-0.624,No-IPH minus IPH,2.1e-05,Higher in IPH-positive,Supported,Table S10,4.6777807052660805
+IPH bulk plaque,Cytotoxic/NK effector score,-0.531,No-IPH minus IPH,6.8e-05,Higher in IPH-positive,Supported,Table S10,4.167491087293763
+IPH bulk plaque,GZMK-like score,-0.415,No-IPH minus IPH,0.000343,Higher in IPH-positive,Supported,Table S10,3.4647058799572297
